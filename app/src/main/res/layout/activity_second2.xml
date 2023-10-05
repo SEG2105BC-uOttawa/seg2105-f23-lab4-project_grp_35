@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/ImageTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginTop="400px">
+
+            <TableRow android:layout_width="wrap_content">
+
+                <ImageView
+                    android:id="@+id/teamImageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/TeamImageDescription"
+                    android:src="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/teamImageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/TeamImageDescription"
+                    android:src="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/teamImageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/TeamImageDescription"
+                    android:src="@tools:sample/avatars" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/teamImageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/TeamImageDescription"
+                    android:src="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/teamImageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/TeamImageDescription"
+                    android:src="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/teamImageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/TeamImageDescription"
+                    android:src="@tools:sample/avatars" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="50px"
+            android:gravity="center|center_vertical|fill_vertical"
+            android:text="Load From Phone" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
